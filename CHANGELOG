@@ -1,3 +1,13 @@
+v2.8:
+
+* New clone tool
+* Improved performace of transparency tool
+* Added option to color picker tool to use all layers
+* Fixed transparency when moving a selection
+* Fixed artefacts when shrinking the canvas
+* Updated documentation
+* Updated translations
+
 v2.7.2:
 
 * Big speed-up for scaling and moving, esp. when working with large images
