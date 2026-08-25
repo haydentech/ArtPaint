@@ -1,4 +1,4 @@
-1	Japanese	application/x-vnd.artpaint	2403250611
+1	Japanese	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: プロジェクトが最後に保存されてから変更があります。\n変更を保存しますか?}other{%project_name%: プロジェクトが最後に保存されてから#箇所の変更があります。\n変更を保存しますか?}}
 Blend mode	ImageView		ブレンドモード
 Cancel	ImageView		キャンセル
@@ -239,6 +239,9 @@ Blurring the image.	Tools		画像をぼかします。
 Brush tool	Tools		ブラシツール
 Click to place the text.	Tools		クリックしてテキストを配置します。
 Click to use the tool.	Tools		クリックしてツールを使います。
+Clone a part of the image. Right-click to set origin.	Tools		Clone a part of the image. Right-click to set origin.
+Clone tool	Tools		Clone tool
+Cloning part of the image.	Tools		Cloning part of the image.
 Color picker tool	Tools		カラーピッカーツール
 Color picker window	Tools		カラーピッカーウィンドウ
 Color variance:	Tools		色変動:
@@ -271,6 +274,7 @@ Hairs:	Tools		毛量:
 Hairy brush tool	Tools		毛筆ツール
 Hardness:	Tools		硬度:
 Hold SHIFT to snap to 45° angles	Tools		SHIFTを押すと、45°毎にスナップします。
+Include all layers	Tools		Include all layers
 Intelligent scissors	Tools		自動はさみ
 Linear	Tools		リニア
 Little	Tools		少
@@ -293,6 +297,7 @@ Rectangle	Tools		四角形
 Rectangle tool	Tools		四角形ツール
 Rectangle: SHIFT for square, ALT for centered	Tools		四角形: SHIFTで正方形、 ALTで中心から描きます。 中心から中央から
 Red	Tools		レッド
+Relative to cursor	Tools		Relative to cursor
 Replace pixels with	Tools		ピクセルの置き換え
 Reset brush	Tools		ブラシをリセット
 Selection tool	Tools		選択ツール

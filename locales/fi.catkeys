@@ -1,4 +1,4 @@
-1	Finnish	application/x-vnd.artpaint	2403250611
+1	Finnish	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}
 Blend mode	ImageView		Blend mode
 Cancel	ImageView		Peruuta
@@ -239,6 +239,9 @@ Blurring the image.	Tools		Blurring the image.
 Brush tool	Tools		Sivellintyökalu
 Click to place the text.	Tools		Click to place the text.
 Click to use the tool.	Tools		Click to use the tool.
+Clone a part of the image. Right-click to set origin.	Tools		Clone a part of the image. Right-click to set origin.
+Clone tool	Tools		Clone tool
+Cloning part of the image.	Tools		Cloning part of the image.
 Color picker tool	Tools		Color picker tool
 Color picker window	Tools		Color picker window
 Color variance:	Tools		Värin satunnaisuus:
@@ -271,6 +274,7 @@ Hairs:	Tools		Harjakset:
 Hairy brush tool	Tools		Hairy brush tool
 Hardness:	Tools		Hardness:
 Hold SHIFT to snap to 45° angles	Tools		Hold SHIFT to snap to 45° angles
+Include all layers	Tools		Include all layers
 Intelligent scissors	Tools		Älykkäät sakset
 Linear	Tools		Linear
 Little	Tools		Vähän
@@ -293,6 +297,7 @@ Rectangle	Tools		Suorakaide
 Rectangle tool	Tools		Suorakaidetyökalu
 Rectangle: SHIFT for square, ALT for centered	Tools		Rectangle: SHIFT for square, ALT for centered
 Red	Tools		Punainen
+Relative to cursor	Tools		Relative to cursor
 Replace pixels with	Tools		Replace pixels with
 Reset brush	Tools		Reset brush
 Selection tool	Tools		Selection tool

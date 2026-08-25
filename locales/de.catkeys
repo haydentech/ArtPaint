@@ -1,4 +1,4 @@
-1	German	application/x-vnd.artpaint	2403250611
+1	German	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: Seit dem letzten Speichern wurde eine Änderung gemacht.\nSoll sie gespeichert werden?}other{%project_name%: Seit dem letzten Speichern wurden # Änderungen gemacht.\nSollen sie gespeichert werden?}}
 Blend mode	ImageView		Misch-Modus
 Cancel	ImageView		Abbrechen
@@ -201,7 +201,7 @@ Cancel	Windows		Abbrechen
 Colors	Windows		Farben
 Colors:	Windows		Farben:
 Cross-hair cursor	Windows		nur Fadenkreuz
-Cursor	Windows		Zeiger
+Cursor	Windows		Mauszeiger
 Datatype setup: %name%	Windows		Formateinstellungen: %name%
 Defaults	Windows		Standardwerte
 Delete selected brush	Windows		Ausgewählten Stift entfernen
@@ -239,6 +239,9 @@ Blurring the image.	Tools		Unschärfe hinzufügen.
 Brush tool	Tools		Stift
 Click to place the text.	Tools		Klicken um Text zu plazieren.
 Click to use the tool.	Tools		Klicken um das Werkzeug zu benutzen.
+Clone a part of the image. Right-click to set origin.	Tools		Bildteile klonen. Rechtsklick setzt den Ursprung.
+Clone tool	Tools		Klon-Stempel
+Cloning part of the image.	Tools		Teile des Bilds klonen.
 Color picker tool	Tools		Farbselektion
 Color picker window	Tools		Farbselektion
 Color variance:	Tools		Farbvarianz:
@@ -271,6 +274,7 @@ Hairs:	Tools		Haare:
 Hairy brush tool	Tools		Pinsel
 Hardness:	Tools		Härte:
 Hold SHIFT to snap to 45° angles	Tools		SHIFT für 45° Winkel
+Include all layers	Tools		Alle Ebenen
 Intelligent scissors	Tools		Intelligente Schere
 Linear	Tools		Linear
 Little	Tools		Wenig
@@ -293,6 +297,7 @@ Rectangle	Tools		Rechteck
 Rectangle tool	Tools		Rechteck
 Rectangle: SHIFT for square, ALT for centered	Tools		Rechteck: SHIFT für Quadrat, ALT für zentriert
 Red	Tools		Rot
+Relative to cursor	Tools		Relativ zum Mauszeiger
 Replace pixels with	Tools		Pixel ersetzen durch
 Reset brush	Tools		Stift zurücksetzen
 Selection tool	Tools		Auswahl

@@ -1,4 +1,4 @@
-1	Turkish	application/x-vnd.artpaint	2403250611
+1	Turkish	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: Projeyi son kaydetmenizden bu yana bir değişiklik yaptınız.\nDeğişikliği kaydetmek istiyor musunuz?}other{%project_name%: Projeyi son kaydetmenizden bu yana # değişiklik yaptınız.\nDeğişiklikleri kaydetmek istiyor musunuz?}}
 Blend mode	ImageView		Harman kipi
 Cancel	ImageView		İptal
@@ -239,6 +239,9 @@ Blurring the image.	Tools		Görsel bulanıklaştırılıyor.
 Brush tool	Tools		Fırça aracı
 Click to place the text.	Tools		Metni yerleştirmek için tıklayın.
 Click to use the tool.	Tools		Aracı kullanmak için tıklayın.
+Clone a part of the image. Right-click to set origin.	Tools		Görselin bir kısmını klonlayın. Orijini ayarlamak için sağ tıklayın.
+Clone tool	Tools		Klon aracı
+Cloning part of the image.	Tools		Görselin bir kısmı klonlanıyor.
 Color picker tool	Tools		Renk seçici aracı
 Color picker window	Tools		Renk seçici penceresi
 Color variance:	Tools		Renk ayrımı:
@@ -271,6 +274,7 @@ Hairs:	Tools		İnce çizgiler:
 Hairy brush tool	Tools		İnce fırça aracı
 Hardness:	Tools		Sertlik:
 Hold SHIFT to snap to 45° angles	Tools		45°’lik açılar kilitlemek için ÜST KARAKTER düğmesini basılı tutun.
+Include all layers	Tools		Tüm katmanları içer
 Intelligent scissors	Tools		Akıllı makas
 Linear	Tools		Doğrusal
 Little	Tools		Az
@@ -293,6 +297,7 @@ Rectangle	Tools		Dörtgen
 Rectangle tool	Tools		Dörtgen aracı
 Rectangle: SHIFT for square, ALT for centered	Tools		Dörtgen: Kare için ÜST KARAKTER, merkezi şekil için KOMUT düğmelerini basılı tutun.
 Red	Tools		Kırmızı
+Relative to cursor	Tools		İmlece göreceli olarak
 Replace pixels with	Tools		Pikselleri şununla değiştir:
 Reset brush	Tools		Fırçayı sıfırla
 Selection tool	Tools		Seçim aracı

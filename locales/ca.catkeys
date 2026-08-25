@@ -1,4 +1,4 @@
-1	Catalan	application/x-vnd.artpaint	2403250611
+1	Catalan	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: Heu fet un canvi des de l'última vegada que s'ha desat el projecte.\nVoleu desar el canvi?}other{%project_name%: Heu fet # canvis des de l'última vegada el projecte s'ha desat.\nVoleu desar els canvis?}}
 Blend mode	ImageView		Mode de fusió
 Cancel	ImageView		Cancel·la
@@ -239,6 +239,9 @@ Blurring the image.	Tools		Desenfoca la imatge.
 Brush tool	Tools		Eina de pinzell
 Click to place the text.	Tools		Cliqueu per col·locar el text.
 Click to use the tool.	Tools		Cliqueu per usar l'eina.
+Clone a part of the image. Right-click to set origin.	Tools		Per clonar una part de la imatge, cliqueu amb el botó dret per definir-ne l'origen.
+Clone tool	Tools		Eina de clonació
+Cloning part of the image.	Tools		Es clona una part de la imatge.
 Color picker tool	Tools		Eina de selecció de colors
 Color picker window	Tools		Finestra del selector de color
 Color variance:	Tools		Variància del color:
@@ -271,6 +274,7 @@ Hairs:	Tools		Pèls:
 Hairy brush tool	Tools		Eina de pinzell pelut
 Hardness:	Tools		Duresa:
 Hold SHIFT to snap to 45° angles	Tools		Manteniu premuda la tecla MAJ per ajustar-ho a angles de 45°.
+Include all layers	Tools		Inclou totes les capes
 Intelligent scissors	Tools		Tisores intel·ligents
 Linear	Tools		Lineal
 Little	Tools		Poc
@@ -293,6 +297,7 @@ Rectangle	Tools		Rectangle
 Rectangle tool	Tools		Eina de rectangle
 Rectangle: SHIFT for square, ALT for centered	Tools		Rectangle: MAJ per al quadrat, ALT per centrar-ho
 Red	Tools		Vermell
+Relative to cursor	Tools		Relatiu al cursor
 Replace pixels with	Tools		Substitueix els píxels per
 Reset brush	Tools		Restableix el pinzell
 Selection tool	Tools		Eina de selecció

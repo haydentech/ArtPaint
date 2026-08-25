@@ -1,4 +1,4 @@
-1	Portuguese	application/x-vnd.artpaint	2403250611
+1	Portuguese	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: Fez uma alteração desde a última vez que o projeto foi salvo.\nDo quer guardar a mudança?} outros{%project_name%: Fez # alterações desde a última vez que o projeto foi salvo.\nDo você quer guardar as alterações?}}
 Blend mode	ImageView		Modo de mistura
 Cancel	ImageView		Cancelar
@@ -16,7 +16,7 @@ Not enough free memory to add a layer. You can free more memory by disabling the
 Not enough free memory to finish the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		Não há memória livre suficiente para terminar o efeito que pediu. Pode fechar outras imagens e tentar novamente. Também encurtar a profundidade de desfazer ou desativar completamente ajuda a obter mais memória. Se tiver outras aplicações em execução, fechá-las dá-lhe mais memória gratuita. Também é uma boa ideia salvar o seu trabalho neste momento, porque se a memória se esgotar completamente pode tornar-se impossível. Lamento muito este inconveniente.
 Not enough free memory to start the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		Não há memória livre suficiente para começar o efeito que pediu. Pode fechar outras imagens e tentar novamente. Também encurtar a profundidade de desfazer ou desativar completamente ajuda a obter mais memória. Se tiver outras aplicações em execução, fechá-las dá-lhe mais memória gratuita. Também é uma boa ideia salvar o seu trabalho neste momento, porque se a memória se esgotar completamente pode tornar-se impossível. Lamento muito este inconveniente.
 OK	ImageView		OK
-Processing…	ImageView		Processing…
+Processing…	ImageView		A processar…
 Rotate selection	ImageView		Rodar seleção 
 Save	ImageView		Salvar
 Scale selection	ImageView		Redimensionar seleção 
@@ -37,7 +37,7 @@ Colors	ColorPalette		Cores
 Delete current set	ColorPalette		Eliminar conjunto de corrente
 Error reading file	ColorPalette		Ficheiro de leitura de erros
 File structure corrupted	ColorPalette		Estrutura de arquivo corrompida
-Layer	ColorPalette		Layer
+Layer	ColorPalette		Camada
 New color set	ColorPalette		Novo conjunto de cores
 Next color set	ColorPalette	In Color Palette window	Próximo conjunto de cores
 Not a color set file	ColorPalette		Não um arquivo de conjunto de cores
@@ -159,9 +159,9 @@ Sets the grid to 8 by 8 pixels.	PaintWindow		Sets the grid to 8 by 8 pixels.
 Sets the zoom level to %s.	PaintWindow		Sets the zoom level to %s.
 Settings…	PaintWindow		Definições…
 Shrink	PaintWindow		Encolher
-Shrinks the selection in all directions.	PaintWindow		Shrinks the selection in all directions.
-Standard sizes	PaintWindow		Standard sizes
-Tool setup…	PaintWindow		Tool setup…
+Shrinks the selection in all directions.	PaintWindow		Encolhe a seleção em todas as direções.
+Standard sizes	PaintWindow		Tamanhos padrão
+Tool setup…	PaintWindow		Configuração de ferramenta…
 Tools…	PaintWindow		Ferramentas…
 Translate…	PaintWindow		Translate…
 Turns the grid off.	PaintWindow		Turns the grid off.
@@ -177,7 +177,7 @@ Zoom out	PaintWindow		Diminuir ampliação
 Zooms into the image.	PaintWindow		Aumenta a ampliação da imagem.
 Zooms out from the image.	PaintWindow		Diminui a ampliação da imagem.
 Add	LayerWindow		Adicionar
-Alpha:	LayerWindow		Alpha:
+Alpha:	LayerWindow		Alfa:
 Delete	LayerWindow		Excluir
 Duplicate	LayerWindow		Duplicado
 Layer	LayerWindow		Camada
@@ -225,7 +225,7 @@ Undo steps:	Windows		Passos de anulação:
 Unlimited	Windows		Sem limite
 Windows	Windows		Janelas
 Adjustable width	Tools		Largura ajustável
-Adjusting the layer's transparency.	Tools		Adjusting the layer's transparency.
+Adjusting the layer's transparency.	Tools		Ajustar a transparência da camada.
 Airbrush	Tools		Airbrush
 Airbrush tool	Tools		Airbrush tool
 Alpha	Tools		Alfa
@@ -234,11 +234,14 @@ Angle:	Tools		Ângulo:
 Aspect:	Tools		Proporção:
 Background color	Tools		Cor de fundo
 Blue	Tools		Azul
-Blur tool	Tools		Blur tool
-Blurring the image.	Tools		Blurring the image.
-Brush tool	Tools		Brush tool
+Blur tool	Tools		Ferramenta de Desfocar
+Blurring the image.	Tools		Desfocar a imagem.
+Brush tool	Tools		Ferramenta Pincel
 Click to place the text.	Tools		Click to place the text.
 Click to use the tool.	Tools		Click to use the tool.
+Clone a part of the image. Right-click to set origin.	Tools		Clone a part of the image. Right-click to set origin.
+Clone tool	Tools		Clone tool
+Cloning part of the image.	Tools		Cloning part of the image.
 Color picker tool	Tools		Seletor de cor
 Color picker window	Tools		Janela do seletor de cor
 Color variance:	Tools		Color variance:
@@ -271,6 +274,7 @@ Hairs:	Tools		Hairs:
 Hairy brush tool	Tools		Hairy brush tool
 Hardness:	Tools		Dureza:
 Hold SHIFT to snap to 45° angles	Tools		Hold SHIFT to snap to 45° angles
+Include all layers	Tools		Include all layers
 Intelligent scissors	Tools		Tesouras inteligentes
 Linear	Tools		Linear
 Little	Tools		Little
@@ -293,6 +297,7 @@ Rectangle	Tools		Retângulo
 Rectangle tool	Tools		Rectangle tool
 Rectangle: SHIFT for square, ALT for centered	Tools		Rectangle: SHIFT for square, ALT for centered
 Red	Tools		Vermelho
+Relative to cursor	Tools		Relative to cursor
 Replace pixels with	Tools		Replace pixels with
 Reset brush	Tools		Repor pincel
 Selection tool	Tools		Ferramenta de seleção
@@ -402,7 +407,7 @@ Undo: %eventName%	UndoQueue		Undo: %eventName%
 Color	PixelOperations		Cor
 Color burn	PixelOperations		Color burn
 Color dodge	PixelOperations		Color dodge
-Darken	PixelOperations		Darken
+Darken	PixelOperations		Escurecer
 Difference	PixelOperations		Diferença
 Dissolve	PixelOperations		Dissolver
 Divide	PixelOperations		Dividir
@@ -410,16 +415,16 @@ Exclusion	PixelOperations		Exclusion
 Hard light	PixelOperations		Hard light
 Hard mix	PixelOperations		Hard mix
 Hue	PixelOperations		Hue
-Lighten	PixelOperations		Lighten
+Lighten	PixelOperations		Clarear
 Lightness	PixelOperations		Lightness
 Linear burn	PixelOperations		Linear burn
 Linear dodge	PixelOperations		Linear dodge
-Linear light	PixelOperations		Linear light
+Linear light	PixelOperations		Luz linear
 Multiply	PixelOperations		Multiplicar
 Normal	PixelOperations		Normal
 Overlay	PixelOperations		Overlay
 Pin light	PixelOperations		Pin light
-Saturation	PixelOperations		Saturation
+Saturation	PixelOperations		Saturação
 Screen	PixelOperations		Screen
 Soft light	PixelOperations		Luz suave
 Vivid light	PixelOperations		Vivid light

@@ -1,11 +1,11 @@
-1	Spanish (Latin American)	application/x-vnd.artpaint	2403250611
+1	Spanish (Latin American)	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: Ha realizado un cambio desde la última vez que se guardó el proyecto.\N¿Desea guardar el cambio?}other{%project_name%: Ha realizado # cambios desde la última vez que se guardó el proyecto.\N¿Desea guardar los cambios?}}
 Blend mode	ImageView		Modo de fusión
 Cancel	ImageView		Cancelar
 Don't save	ImageView		No guardar
 Drop layer to copy it to this image.	ImageView		Suelte la capa para copiarla en esta imagen.
-Flip selection horizontally	ImageView		Voltear horizontalmente la selección
-Flip selection vertically	ImageView		Voltear verticalmente la selección
+Flip selection horizontally	ImageView		Girar la selección horizontalmente
+Flip selection vertically	ImageView		Girar la selección verticalmente
 Grow selection	ImageView		Agrandar la selección
 Invert selection	ImageView		Invertir selección
 Layer %ld / %ld	ImageView		Capa %ld / %ld
@@ -16,7 +16,7 @@ Not enough free memory to add a layer. You can free more memory by disabling the
 Not enough free memory to finish the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		No hay suficiente memoria libre para terminar el efecto que solicitaste. Puedes cerrar otras imágenes e intentarlo de nuevo. También acortar la profundidad de "deshacer" o deshabilitar totalmente "deshacer" ayuda a conseguir más memoria. Si tienes otras aplicaciones abiertas, cerrarlas te permite tener más memoria libre. También es buena idea guardar su trabajo en este punto, porque si la memoria se agota por completo guardar puede resultar imposible. Lamento mucho este inconveniente.
 Not enough free memory to start the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		No hay suficiente memoria libre para iniciar el efecto que solicitaste. Puedes cerrar otras imágenes e intentarlo de nuevo. También acortar la profundidad de "deshacer" o deshabilitar totalmente "deshacer" ayuda a conseguir más memoria. Si tienes otras aplicaciones abiertas, cerrarlas te permite tener más memoria libre. También es buena idea guardar su trabajo en este punto, porque si la memoria se agota por completo guardar puede resultar imposible. Lamento mucho este inconveniente.
 OK	ImageView		Aceptar
-Processing…	ImageView		Processing…
+Processing…	ImageView		Procesando…
 Rotate selection	ImageView		Girar selección
 Save	ImageView		Guardar
 Scale selection	ImageView		Escalar selección
@@ -82,8 +82,8 @@ Flips all layers horizontally.	PaintWindow		Voltea todas las capas horizontalmen
 Flips all layers vertically.	PaintWindow		Voltea todas las capas verticalmente.
 Flips the active layer horizontally.	PaintWindow		Voltea la capa activa horizontalmente.
 Flips the active layer vertically.	PaintWindow		Voltea la capa activa verticalmente.
-Flips the selection horizontally.	PaintWindow		Voltea horizontalmente la selección.
-Flips the selection vertically.	PaintWindow		Voltea verticalmente la selección.
+Flips the selection horizontally.	PaintWindow		Gira la selección horizontalmente.
+Flips the selection vertically.	PaintWindow		Gira la selección verticalmente.
 Grow	PaintWindow		Agrandar
 Grows the selection in all directions.	PaintWindow		Agranda la selección en todas las direcciones.
 Height:	PaintWindow		Altura:
@@ -239,6 +239,9 @@ Blurring the image.	Tools		Desenfocar la imagen.
 Brush tool	Tools		Herramienta pincel
 Click to place the text.	Tools		Haga clic para colocar el texto.
 Click to use the tool.	Tools		Haga clic para utilizar la herramienta.
+Clone a part of the image. Right-click to set origin.	Tools		Clonar una parte de la imagen. Clic derecho para establecer el origen.
+Clone tool	Tools		Herramienta de clonación
+Cloning part of the image.	Tools		Clonar parte de la imagen.
 Color picker tool	Tools		Herramienta de selección de color
 Color picker window	Tools		Ventana del selector de color
 Color variance:	Tools		Variación de color:
@@ -271,6 +274,7 @@ Hairs:	Tools		Pelos:
 Hairy brush tool	Tools		Herramienta  pincel de pelo
 Hardness:	Tools		Dureza:
 Hold SHIFT to snap to 45° angles	Tools		Mantén pulsado SHIFT para ajustar a ángulos de 45°
+Include all layers	Tools		Incluir todas las capas
 Intelligent scissors	Tools		Tijeras inteligentes
 Linear	Tools		Linear
 Little	Tools		Pequeño
@@ -293,6 +297,7 @@ Rectangle	Tools		Rectángulo
 Rectangle tool	Tools		Herramienta Rectángulo
 Rectangle: SHIFT for square, ALT for centered	Tools		Rectángulo: SHIFT para cuadrado, ALT para centrado
 Red	Tools		Rojo
+Relative to cursor	Tools		En relación con el cursor
 Replace pixels with	Tools		Reemplazar píxeles con
 Reset brush	Tools		Restablecer pincel
 Selection tool	Tools		Herramienta de selección
@@ -336,8 +341,8 @@ Crop…	Manipulators		Recortar...
 Enable antialiasing	Manipulators		Activar antialiasing
 Filter:	Manipulators		Filtro:
 Flip horizontally	Manipulators		Voltear horizontalmente
-Flip selection horizontally	Manipulators		Voltear horizontalmente la selección
-Flip selection vertically	Manipulators		Voltear verticalmente la selección
+Flip selection horizontally	Manipulators		Girar la selección horizontalmente
+Flip selection vertically	Manipulators		Girar la selección verticalmente
 Flip vertically	Manipulators		Voltear verticalmente
 Font:	Manipulators		Fuente:
 Height:	Manipulators		Altura:

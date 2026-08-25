@@ -1,4 +1,4 @@
-1	Friulian	application/x-vnd.artpaint	2403250611
+1	Friulian	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: De ultime volte che il progjet al è stât salvât e je stade fate une modifiche.\nDesideristu salvâ la modifiche?}other{%project_name%: De ultime volte che il progjet al è stât salvât a son stadis fatis # modifichis.\nDesideristu salvâ lis modifichis?}}
 Blend mode	ImageView		Modalitât misture
 Cancel	ImageView		Anule
@@ -16,7 +16,7 @@ Not enough free memory to add a layer. You can free more memory by disabling the
 Not enough free memory to finish the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		No je vonde memorie libare par finî l'efiet domandât. Tu puedis sierâ lis altris imagjins e tornâ a provâ. Ancje scurtâ la profonditât de funzion disfe, o disabilitâ dal dut chê funzion, al jude a vê plui memorie. Se tu âs altris aplicazions in esecuzion, tu puedis otignî plui memorie libare sierantlis. E je ancje une buine idee chê di salvâ il lavôr in chest moment, par vie che se e finìs dal dut la memorie al podarès deventâ impussibil salvâ. Mi displâs par chest inconvenient.
 Not enough free memory to start the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		No je vonde memorie libare par scomençâ l'efiet domandât. Tu puedis sierâ lis altris imagjins e tornâ a provâ. Ancje scurtâ la profonditât de funzion disfe, o disabilitâ dal dut chê funzion, al jude a vê plui memorie. Se tu âs altris aplicazions in esecuzion, tu puedis otignî plui memorie libare sierantlis. E je ancje une buine idee chê di salvâ il lavôr in chest moment, par vie che se e finìs dal dut la memorie al podarès deventâ impussibil salvâ. Mi displâs par chest inconvenient.
 OK	ImageView		Va ben
-Processing…	ImageView		Processing…
+Processing…	ImageView		Elaborazion…
 Rotate selection	ImageView		Selezion rotazion
 Save	ImageView		Salve
 Scale selection	ImageView		Selezion scjale
@@ -239,6 +239,9 @@ Blurring the image.	Tools		Daûr a meti fûr di fûc la imagjin.
 Brush tool	Tools		Imprest pinel
 Click to place the text.	Tools		Fâs clic par plaçâ il test.
 Click to use the tool.	Tools		Fâs clic par doprâ l'imprest.
+Clone a part of the image. Right-click to set origin.	Tools		Clone une part de imagjin. Il clic di diestre al stabilìs la origin.
+Clone tool	Tools		Strument par clonâ
+Cloning part of the image.	Tools		Daûr a clonâ la part de imagjin.
 Color picker tool	Tools		Imprest par sielzi il colôr
 Color picker window	Tools		Barcon di selezion colôr
 Color variance:	Tools		Variazion colôr:
@@ -271,6 +274,7 @@ Hairs:	Tools		Pei:
 Hairy brush tool	Tools		Imprest scovet pelôs
 Hardness:	Tools		Durece:
 Hold SHIFT to snap to 45° angles	Tools		Ten fracât MAIUSC par tacâsi ai angui di 45°
+Include all layers	Tools		Inclût ducj i strâts
 Intelligent scissors	Tools		Fuarpiis inteligjentis
 Linear	Tools		Lineâr
 Little	Tools		Pôc
@@ -293,6 +297,7 @@ Rectangle	Tools		Retangul
 Rectangle tool	Tools		Imprest retangul
 Rectangle: SHIFT for square, ALT for centered	Tools		Retangul: MAIUSC pal cuadrât, ALT par centrât
 Red	Tools		Ros
+Relative to cursor	Tools		Relative al cursôr
 Replace pixels with	Tools		Sostituìs i pixels cun
 Reset brush	Tools		Ripristine pinel
 Selection tool	Tools		Imprest selezion

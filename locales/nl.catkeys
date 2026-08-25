@@ -1,4 +1,4 @@
-1	Dutch	application/x-vnd.artpaint	2403250611
+1	Dutch	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: Je hebt een aanpassing gedaan sinds de laatste keer je project was opgeslagen.\nWil je de aanpassing opslaan?}other{%project_name%: Je hebt # aanpassingen gedaan sinds de laatste keer je project was opgeslagen.\nWil je deze aanpassingen opslaan?}}
 Blend mode	ImageView		Blend modus
 Cancel	ImageView		Annuleren
@@ -239,6 +239,9 @@ Blurring the image.	Tools		De afbeelding vervagen.
 Brush tool	Tools		Penseel werktuig
 Click to place the text.	Tools		Klik om de tekst te plaatsen.
 Click to use the tool.	Tools		Klik om het werktuig te gebruiken.
+Clone a part of the image. Right-click to set origin.	Tools		Kloon een deel van de afbeelding. Rechts-klik om de oorsprong in te stellen
+Clone tool	Tools		Kloon werktuig
+Cloning part of the image.	Tools		Kloon deel van de afbeelding
 Color picker tool	Tools		Kleur pallet werktuig.
 Color picker window	Tools		Kleurkiezervenster
 Color variance:	Tools		Kleurvariatie:
@@ -271,6 +274,7 @@ Hairs:	Tools		Haren:
 Hairy brush tool	Tools		Kwast werktuig
 Hardness:	Tools		Hardheid:
 Hold SHIFT to snap to 45° angles	Tools		Houd SHIFT ingedrukt om in hoeken van 45° te klikken
+Include all layers	Tools		Betrek alle lagen
 Intelligent scissors	Tools		Intelligente scharen
 Linear	Tools		Linear
 Little	Tools		Weinig
@@ -293,6 +297,7 @@ Rectangle	Tools		Rechthoek
 Rectangle tool	Tools		Rechthoek werktuig
 Rectangle: SHIFT for square, ALT for centered	Tools		Rechthoek: SHIFT voor vierkant, ALT voor gecentreerd
 Red	Tools		Rood
+Relative to cursor	Tools		Relatief aan de cursor
 Replace pixels with	Tools		Pixels vervangen met
 Reset brush	Tools		Penseel resetten
 Selection tool	Tools		Selectie werktuig

@@ -1,4 +1,4 @@
-1	Swedish	application/x-vnd.artpaint	2403250611
+1	Swedish	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: Du har gjort en ändring sedan senast projektet sparades.\nVill du spara ändringen?}other{%project_name%: Du har gjort # ändringar sedan senast projektet sparades.\nVill du spara ändringarna?}}
 Blend mode	ImageView		Blandningsläge
 Cancel	ImageView		Avbryt
@@ -239,6 +239,9 @@ Blurring the image.	Tools		Oskärpa bilden.
 Brush tool	Tools		Penselverktyg
 Click to place the text.	Tools		Klicka för att placera texten.
 Click to use the tool.	Tools		Klicka för att använda verktyget.
+Clone a part of the image. Right-click to set origin.	Tools		Klona en del av bilden. Högerklicka för att ange origo.
+Clone tool	Tools		Klonverktyg
+Cloning part of the image.	Tools		Kloning av en del av bilden.
 Color picker tool	Tools		Färgväljarverktyg
 Color picker window	Tools		Fönster för färgväljare
 Color variance:	Tools		Färgvarians:
@@ -271,6 +274,7 @@ Hairs:	Tools		Hår:
 Hairy brush tool	Tools		Hårigt penselverktyg
 Hardness:	Tools		Hårdhet:
 Hold SHIFT to snap to 45° angles	Tools		Håll ned SHIFT för att snäppa till 45° vinklar
+Include all layers	Tools		Inkludera alla lager
 Intelligent scissors	Tools		Intelligent sax
 Linear	Tools		Linjär
 Little	Tools		Liten
@@ -293,6 +297,7 @@ Rectangle	Tools		Rektangel
 Rectangle tool	Tools		Rektangelverktyg
 Rectangle: SHIFT for square, ALT for centered	Tools		Rektangel: SHIFT för kvadrat, ALT för centrerad
 Red	Tools		Röd
+Relative to cursor	Tools		Relativt till markören
 Replace pixels with	Tools		Ersätta pixlar med
 Reset brush	Tools		Återställningsborste
 Selection tool	Tools		Urvalsverktyg

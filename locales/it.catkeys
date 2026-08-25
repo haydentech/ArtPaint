@@ -1,4 +1,4 @@
-1	Italian	application/x-vnd.artpaint	2403250611
+1	Italian	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: Hai apportato una modifica dall'ultimo salvataggio del progetto.\nVuoi salvare la modifica?}other{%project_name%: Hai apportato # modifiche dall'ultima volta il progetto è stato salvato.\nVuoi salvare le modifiche?}}
 Blend mode	ImageView		Modalità fusione
 Cancel	ImageView		Annulla
@@ -16,7 +16,7 @@ Not enough free memory to add a layer. You can free more memory by disabling the
 Not enough free memory to finish the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		Memoria insufficiente per completare l'effetto richiesto. Puoi chiudere altre immagini e riprovare. Ridurre la profondità dell'annullamento o disabilitare del tutto l'annullamento aiuta ulteriormente a ottenere più memoria. Se hai altre applicazioni in esecuzione, chiuderle ti darà più memoria libera. È una buona idea inoltre salvare il tuo lavoro a questo punto, perché se la memoria si esaurisce completamente il salvataggio potrebbe diventare impossibile. Mi dispiace molto per questo inconveniente.
 Not enough free memory to start the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		Memoria insufficiente per avviare l'effetto richiesto. Puoi chiudere altre immagini e riprovare. Ridurre  la profondità dell'annullamento o disabilitare del tutto l'annullamento aiuta ulteriormente a ottenere più memoria. Se hai altre applicazioni in esecuzione, chiuderle ti darà più memoria libera. È una buona idea inoltre salvare il tuo lavoro a questo punto, perché se la memoria si esaurisce completamente il salvataggio potrebbe diventare impossibile. Mi dispiace molto per questo inconveniente.
 OK	ImageView		OK
-Processing…	ImageView		Processing…
+Processing…	ImageView		Elaborazione in corso…
 Rotate selection	ImageView		Ruota selezione
 Save	ImageView		Salva
 Scale selection	ImageView		Ridimensiona selezione
@@ -239,6 +239,9 @@ Blurring the image.	Tools		Sfocatura dell'immagine in corso.
 Brush tool	Tools		Strumento pennello
 Click to place the text.	Tools		Fai clic per posizionare il testo.
 Click to use the tool.	Tools		Fai clic per usare lo strumento.
+Clone a part of the image. Right-click to set origin.	Tools		Clona una parte dell'immagine. Fare clic col tasto destro per impostare l'origine.
+Clone tool	Tools		Strumento clona
+Cloning part of the image.	Tools		Clonazione di parte dell'immagine in corso.
 Color picker tool	Tools		Strumento selezione colore
 Color picker window	Tools		Finestra selettore colore
 Color variance:	Tools		Variabilità colore:
@@ -271,6 +274,7 @@ Hairs:	Tools		Setole:
 Hairy brush tool	Tools		Pennello setoloso
 Hardness:	Tools		Durezza:
 Hold SHIFT to snap to 45° angles	Tools		Premi MAIUSCOLO per scatti angolari di 45°.
+Include all layers	Tools		Includi tutti i livelli
 Intelligent scissors	Tools		Forbici intelligenti
 Linear	Tools		Lineare
 Little	Tools		Poco
@@ -293,6 +297,7 @@ Rectangle	Tools		Rettangolo
 Rectangle tool	Tools		Strumento rettangolo
 Rectangle: SHIFT for square, ALT for centered	Tools		Rettangolo: MAIUSCOLO per quadrato, ALT per centrarlo
 Red	Tools		Rosso
+Relative to cursor	Tools		Relativamente al cursore
 Replace pixels with	Tools		Sostituisci pixel con
 Reset brush	Tools		Reimposta pennello
 Selection tool	Tools		Strumento selezione

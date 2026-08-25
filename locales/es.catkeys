@@ -1,4 +1,4 @@
-1	Spanish	application/x-vnd.artpaint	2403250611
+1	Spanish	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: Se ha hecho un cambio desde la última vez que se guardó el proyecto.\n¿Desea guardar el cambio?}other{%project_name%: Se han hecho # cambios desde la última vez que se guardó el proyecto.\n¿Desea guardar los cambios?}}
 Blend mode	ImageView		Modo de fusión
 Cancel	ImageView		Cancelar
@@ -6,13 +6,13 @@ Don't save	ImageView		No guardar
 Drop layer to copy it to this image.	ImageView		Soltar capa para copiarla en esta imagen.
 Flip selection horizontally	ImageView		Voltear horizontalmente la selección
 Flip selection vertically	ImageView		Voltear verticalmente la selección
-Grow selection	ImageView		Expandir selección
+Grow selection	ImageView		Ampliar selección
 Invert selection	ImageView		Invertir selección
 Layer %ld / %ld	ImageView		Capa %ld / %ld
 Layer name	ImageView		Nombre de la capa
 Layer transparency	ImageView		Transparencia de la capa
 Layer visibility	ImageView		Visibilidad de la capa
-Not enough free memory to add a layer. You can free more memory by disabling the undo and closing other images. It is also a good idea to save the image now because running out of memory later on might make saving difficult or impossible. I am very sorry about this inconvenience.	ImageView		Memoria insuficiente para agregar una nueva capa. Puede liberar memoria desactivando la función de deshacer y cerrando otras imágenes abiertas. También debe guardar la imagen ahora porque no podrá hacerlo más tarde si no tiene memoria. Lo siento mucho por este problema.
+Not enough free memory to add a layer. You can free more memory by disabling the undo and closing other images. It is also a good idea to save the image now because running out of memory later on might make saving difficult or impossible. I am very sorry about this inconvenience.	ImageView		Memoria insuficiente para añadir nueva capa. Puede liberar memoria desactivando la función de deshacer y cerrando otras imágenes abiertas. También debe guardar la imagen ahora porque no podrá hacerlo más tarde si no tiene memoria. Lo siento mucho por este problema.
 Not enough free memory to finish the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		Memoria insuficiente para terminar de aplicar este efecto. Puedes cerrar imágenes y volver a intentarlo. Reducir el nivel de cancelación o cancelar la cancelación puede restaurar la memoria. Si tiene otras aplicaciones abiertas, al cerrarlas se liberará de la memoria. También debe guardar su trabajo ahora, porque si la memoria está completamente usada, no podrá guardar. Lo siento mucho por este problema.
 Not enough free memory to start the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		Memoria insuficiente para aplicar este efecto. Puedes cerrar imágenes y volver a intentarlo. Reducir el nivel de cancelación o cancelar la cancelación puede restaurar la memoria. Si tiene otras aplicaciones abiertas, al cerrarlas se liberará de la memoria. También debe guardar su trabajo ahora, porque si la memoria está completamente usada, no podrá guardar. Lo siento mucho por este problema.
 OK	ImageView		Aceptar
@@ -22,7 +22,7 @@ Save	ImageView		Guardar
 Scale selection	ImageView		Escalar selección
 Select all	ImageView		Seleccionar todo
 Select non-transparent	ImageView		Seleccionar lo no transparente
-Select none	ImageView		Seleccionar ninguno
+Select none	ImageView		No seleccionar nada
 Shrink selection	ImageView		Reducir selección
 Translate selection	ImageView		Trasladar selección
 Unsaved changes!	ImageView		¡Cambios sin guardar!
@@ -47,9 +47,9 @@ Previous color set	ColorPalette	In Color Palette window	Anterior paleta de color
 Save color set	ColorPalette		Guardar paleta de colores
 About ArtPaint	PaintWindow		Acerca de ArtPaint
 Active layer	PaintWindow		Capa activa
-Add	PaintWindow		Agregar
-Add-ons	PaintWindow		Plugins
-Adds a layer to the top of this image.	PaintWindow		Agrega una capa encima de las otras.
+Add	PaintWindow		Añadir
+Add-ons	PaintWindow		Complementos
+Adds a layer to the top of this image.	PaintWindow		Añade una capa encima de las otras.
 All	PaintWindow		Todo
 All layers	PaintWindow		Todas las capas
 All non-transparent	PaintWindow		Todo lo no transparente
@@ -84,8 +84,8 @@ Flips the active layer horizontally.	PaintWindow		Voltea horizontalmente la capa
 Flips the active layer vertically.	PaintWindow		Voltea verticalmente la capa activa.
 Flips the selection horizontally.	PaintWindow		Voltea horizontalmente la selección
 Flips the selection vertically.	PaintWindow		Voltea verticalmente la selección
-Grow	PaintWindow		Crecer
-Grows the selection in all directions.	PaintWindow		Extiende la selección en todas las direcciones.
+Grow	PaintWindow		Ampliar
+Grows the selection in all directions.	PaintWindow		Amplia la selección en todas las direcciones.
 Height:	PaintWindow		Alto:
 Hide borders	PaintWindow		Ocultar bordes
 Hides the selection borders.	PaintWindow		Oculta los bordes de la selección.
@@ -99,7 +99,7 @@ Move the selection.	PaintWindow		Mueve la selección.
 Moves all layers.	PaintWindow		Mueve todas las capas.
 Moves the active layer.	PaintWindow		Mueve la capa activa.
 New project…	PaintWindow		Proyecto nuevo...
-None	PaintWindow		Ninguno
+None	PaintWindow		Nada
 Not enough free memory to create the image. Please try again with a smaller image size.	PaintWindow		Memoria insuficiente para crear la imagen. Por favor intente con un tamaño de imagen más pequeño.
 Off	PaintWindow		Desactivar
 OK	PaintWindow		Aceptar
@@ -148,7 +148,7 @@ Scale…	PaintWindow		Redimensionar...
 Scales all layers.	PaintWindow		Escala todas las capas.
 Scales the active layer.	PaintWindow		Escala la capa activa.
 Selection	PaintWindow		Selección
-Selects all non-transparent layer pixels	PaintWindow		Selecciona todos pixeles no transparentes en la capa
+Selects all non-transparent layer pixels	PaintWindow		Selecciona todos los píxeles no transparentes de la capa
 Selects entire layer	PaintWindow		Selecciona la capa entera
 Set grid	PaintWindow		Establecer la cuadrícula
 Set zoom level	PaintWindow		Establecer el nivel de ampliación
@@ -158,7 +158,7 @@ Sets the grid to 4 by 4 pixels.	PaintWindow		Establecer la cuadrícula a 4 por 4
 Sets the grid to 8 by 8 pixels.	PaintWindow		Establecer la cuadrícula a 8 por 8 píxeles.
 Sets the zoom level to %s.	PaintWindow		Establecer la zoom para %s.
 Settings…	PaintWindow		Preferencias...
-Shrink	PaintWindow		Encoger
+Shrink	PaintWindow		Reducir
 Shrinks the selection in all directions.	PaintWindow		Reduce la selección en todas las direcciones.
 Standard sizes	PaintWindow		Tamaños estandár
 Tool setup…	PaintWindow		Ajustes de herramienta…
@@ -176,7 +176,7 @@ Zoom in	PaintWindow		Zoom
 Zoom out	PaintWindow		Zoom de nuevo
 Zooms into the image.	PaintWindow		Zoom en la imagen.
 Zooms out from the image.	PaintWindow		Zoom de nuevo en la imagen.
-Add	LayerWindow		Agregar
+Add	LayerWindow		Añadir
 Alpha:	LayerWindow		Alfa:
 Delete	LayerWindow		Eliminar
 Duplicate	LayerWindow		Duplicar
@@ -239,6 +239,9 @@ Blurring the image.	Tools		Emborronar la imagen.
 Brush tool	Tools		Pincel
 Click to place the text.	Tools		Hacer clic para colocar el texto.
 Click to use the tool.	Tools		Hacer clic para usar la herramienta.
+Clone a part of the image. Right-click to set origin.	Tools		Clonar una parte de la imagen. Clic con el botón derecho para establecer el origen.
+Clone tool	Tools		Herramienta Clonar
+Cloning part of the image.	Tools		Clonar una parte de la imagen.
 Color picker tool	Tools		Herramienta de recolección de color
 Color picker window	Tools		Ventana de selección de color
 Color variance:	Tools		Variación de color:
@@ -271,6 +274,7 @@ Hairs:	Tools		Cerdas:
 Hairy brush tool	Tools		Brocha
 Hardness:	Tools		Dureza:
 Hold SHIFT to snap to 45° angles	Tools		Presionar MAYÚS para ajustar en ángulos de 45°
+Include all layers	Tools		Incluir todas las capas
 Intelligent scissors	Tools		Lazo magnético
 Linear	Tools		Lineal
 Little	Tools		Pequeño
@@ -280,7 +284,7 @@ Making a selection.	Tools		Seleccionando.
 Mode	Tools		Modo
 Much	Tools		Mucho
 No configuration options available.	Tools		No hay opciones de configuración disponibles
-None	Tools		Ninguna
+None	Tools		Nada
 Options	Tools		Opciones
 Outline width:	Tools		Ancho del contorno:
 Painting with a brush.	Tools		Pintar con pincel.
@@ -293,6 +297,7 @@ Rectangle	Tools		Rectángulo
 Rectangle tool	Tools		Rectángulo
 Rectangle: SHIFT for square, ALT for centered	Tools		Rectángulo: presionar MAYÚS para un cuadrado, ALT para centrar
 Red	Tools		Rojo
+Relative to cursor	Tools		En relación con el cursor
 Replace pixels with	Tools		Reemplazar píxeles con
 Reset brush	Tools		Reiniciar pincel
 Selection tool	Tools		Herramienta de selección

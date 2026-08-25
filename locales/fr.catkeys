@@ -1,4 +1,4 @@
-1	French	application/x-vnd.artpaint	2403250611
+1	French	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: Vous avez effectué un changement depuis la dernière sauvegarde du projet.\nVoulez vous sauvegarder ce changement ?}other{%project_name%: YVous avez effectué # changements depuis la dernière sauvegarde du projet.\nVoulez vous sauvegarder ces changements ?
 Blend mode	ImageView		Blend mode
 Cancel	ImageView		Annuler
@@ -216,7 +216,7 @@ Off	Windows		Aucune
 OK	Windows		D’accord
 Settings	Windows		Préférences
 Show brush size	Windows		Afficher la dimension du pinceau
-Tool cursor	Windows		Outil curseur
+Tool cursor	Windows		Curseur
 Tool setup	Windows		Configuration outil
 Tools	Windows		Outils
 Transparency	Windows		Transparence
@@ -227,7 +227,7 @@ Windows	Windows		Fenêtres
 Adjustable width	Tools		Largeur ajustable
 Adjusting the layer's transparency.	Tools		Ajustement de la transparence du calque.
 Airbrush	Tools		Aérographe
-Airbrush tool	Tools		Outil aérographe
+Airbrush tool	Tools		Aérographe
 Alpha	Tools		Alpha
 Amount of paint:	Tools		Quantité de peinture :
 Angle:	Tools		Angle :
@@ -239,7 +239,10 @@ Blurring the image.	Tools		Floutage de l’image.
 Brush tool	Tools		Pinceau
 Click to place the text.	Tools		Cliquer pour placer le texte.
 Click to use the tool.	Tools		Cliquer pour utiliser l’outil.
-Color picker tool	Tools		Outil de sélection couleur
+Clone a part of the image. Right-click to set origin.	Tools		Cloner une partie de l'image. Clic droit pour définir l'origine.
+Clone tool	Tools		Clonage
+Cloning part of the image.	Tools		Clonage d'une partie de l'image.
+Color picker tool	Tools		Sélection de couleurs
 Color picker window	Tools		Fenêtre de sélection couleur
 Color variance:	Tools		Variance couleur:
 Conic	Tools		Conique
@@ -265,12 +268,13 @@ Fill tool: SHIFT locks 22.5° angles	Tools		Remplissage : MAJ verrouille les ang
 Flood fill	Tools		Remplissage d’une forme
 Flow:	Tools		Débit :
 Freehand	Tools		À main levée
-Freehand line tool	Tools		Outil ligne à main levée
+Freehand line tool	Tools		Ligne à main levée
 Green	Tools		Vert
 Hairs:	Tools		Poils :
-Hairy brush tool	Tools		Outil brosse
+Hairy brush tool	Tools		Brosse
 Hardness:	Tools		Dureté :
 Hold SHIFT to snap to 45° angles	Tools		Maintenez la touche Maj enfoncée pour aimanter aux angles à 45°
+Include all layers	Tools		Inclure tous les calques
 Intelligent scissors	Tools		Lasso magnétique
 Linear	Tools		Linéaire
 Little	Tools		Peu
@@ -293,15 +297,16 @@ Rectangle	Tools		Rectangle
 Rectangle tool	Tools		Rectangle
 Rectangle: SHIFT for square, ALT for centered	Tools		Rectangle: Maj pour un carré, ALT pour centrer
 Red	Tools		Rouge
+Relative to cursor	Tools		Relative au curseur
 Replace pixels with	Tools		Remplace des pixels avec
 Reset brush	Tools		Réinitialiser
-Selection tool	Tools		Outil sélection
-Selection tool: SHIFT for square/circle, ALT centers selection, OPT subtracts	Tools		Outil sélection: MAJ pour carré/cercle, ALT pour centrer, OPT pour soustraire
+Selection tool	Tools		Sélection
+Selection tool: SHIFT for square/circle, ALT centers selection, OPT subtracts	Tools		Sélection: MAJ pour carré/cercle, ALT pour centrer, OPT pour soustraire
 Size:	Tools		Dimension :
 Spray	Tools		Bombe
 Square	Tools		Carré
 Store brush	Tools		Sauver
-Straight line tool	Tools		Outil ligne droite
+Straight line tool	Tools		Ligne droite
 Straight line: SHIFT locks 22.5° angles	Tools		Ligne droite : MAJ verrouille les angles à 22.5°
 Text tool	Tools		Texte
 Tolerance:	Tools		Tolérance :
@@ -312,7 +317,7 @@ Transparency tool	Tools		Transparence
 Transparency:	Tools		Transparence :
 Use current brush	Tools		Utiliser le pinceau courant
 Using the airbrush.	Tools		Usage de l’aérographe.
-Using the tool.	Tools		Usage de l'outil.
+Using the tool.	Tools		Utilisation de l'outil.
 Width:	Tools		Largeur :
 Alpha	ColorSliders	For color sliders	Alpha
 Black	ColorSliders	For CMYK color slider	Noir

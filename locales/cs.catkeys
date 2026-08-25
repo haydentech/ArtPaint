@@ -1,11 +1,11 @@
-1	Czech	application/x-vnd.artpaint	2403250611
+1	Czech	application/x-vnd.artpaint	3460213630
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: Provedli jste změnu od posledního uložení projektu.\nChcete změnu uložit?}other{%project_name%: Od posledního uložení projektu jste provedli # změn.\nChcete změny uložit?}}
 Blend mode	ImageView		Režim prolnutí
 Cancel	ImageView		Zrušít
 Don't save	ImageView		Neukládat
 Drop layer to copy it to this image.	ImageView		Přetažením vrstvy ji zkopírujete do tohoto obrázku.
-Flip selection horizontally	ImageView		Překlopte výběr vodorovně
-Flip selection vertically	ImageView		Překlopte výběr svisle
+Flip selection horizontally	ImageView		Překlopit výběr vodorovně
+Flip selection vertically	ImageView		Překlopit výběr svisle
 Grow selection	ImageView		Rozšiřte výběr
 Invert selection	ImageView		Invertovat výběr
 Layer %ld / %ld	ImageView		Vrstva %ld / %ld
@@ -16,7 +16,7 @@ Not enough free memory to add a layer. You can free more memory by disabling the
 Not enough free memory to finish the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		Nedostatek volné paměti k dokončení požadovaného efektu. Můžete zavřít další obrázky a zkusit to znovu. K dosažení větší paměti také pomáhá zkrácení hloubky zpětného chodu nebo jeho úplné zakázání. Pokud máte spuštěné jiné aplikace, jejich zavřením získáte více volné paměti. V tomto okamžiku je také dobré uložit svou práci, protože pokud se paměť zcela vyčerpá, ukládání může být nemožné. Velmi se omlouvám za tuto nepříjemnost.
 Not enough free memory to start the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		Nedostatek volné paměti ke spuštění požadovaného efektu. Můžete zavřít další obrázky a zkusit to znovu. K dosažení větší paměti také pomáhá zkrácení hloubky zpětného chodu nebo jeho úplné zakázání. Pokud máte spuštěné jiné aplikace, jejich zavřením získáte více volné paměti. V tomto okamžiku je také dobré uložit svou práci, protože pokud se paměť zcela vyčerpá, ukládání může být nemožné. Velmi se omlouvám za tuto nepříjemnost.
 OK	ImageView		OK
-Processing…	ImageView		Processing…
+Processing…	ImageView		Zpracovávání…
 Rotate selection	ImageView		Otočit výběr
 Save	ImageView		Uložit
 Scale selection	ImageView		Výběr měřítka
@@ -239,6 +239,9 @@ Blurring the image.	Tools		Rozmazání obrazu.
 Brush tool	Tools		Nástroj štětec
 Click to place the text.	Tools		Klepnutím umístěte text.
 Click to use the tool.	Tools		Kliknutím nástroj použijete.
+Clone a part of the image. Right-click to set origin.	Tools		Naklonujte část obrázku. Kliknutím pravým tlačítkem myši nastavte počátek.
+Clone tool	Tools		Klonovací nástroj
+Cloning part of the image.	Tools		Klonování části obrázku.
 Color picker tool	Tools		Nástroj pro výběr barvy
 Color picker window	Tools		Okno pro výběr barvy
 Color variance:	Tools		Barevná variace:
@@ -271,6 +274,7 @@ Hairs:	Tools		Vlasy:
 Hairy brush tool	Tools		Nástroj chlupatý štětec
 Hardness:	Tools		Tvrdost:
 Hold SHIFT to snap to 45° angles	Tools		Podržte SHIFT pro přichycení do 45° úhlů
+Include all layers	Tools		Zahrnout všechny vrstvy
 Intelligent scissors	Tools		Inteligentní nůžky
 Linear	Tools		Lineární
 Little	Tools		Málo
@@ -293,6 +297,7 @@ Rectangle	Tools		Obdélník
 Rectangle tool	Tools		Nástroj obdélník
 Rectangle: SHIFT for square, ALT for centered	Tools		Obdélník: SHIFT pro čtverec, ALT pro střed
 Red	Tools		Červená
+Relative to cursor	Tools		Relativně ke kurzoru
 Replace pixels with	Tools		Nahraďte pixely za
 Reset brush	Tools		Resetujte štětec
 Selection tool	Tools		Nástroj pro výběr
@@ -336,8 +341,8 @@ Crop…	Manipulators		Oříznout…
 Enable antialiasing	Manipulators		Povolit vyhlazování
 Filter:	Manipulators		Filter:
 Flip horizontally	Manipulators		Překlopte vodorovně
-Flip selection horizontally	Manipulators		Překlopte výběr vodorovně
-Flip selection vertically	Manipulators		Překlopte výběr svisle
+Flip selection horizontally	Manipulators		Překlopit výběr vodorovně
+Flip selection vertically	Manipulators		Překlopit výběr svisle
 Flip vertically	Manipulators		Překlopte svisle
 Font:	Manipulators		Písmo:
 Height:	Manipulators		Výška:
